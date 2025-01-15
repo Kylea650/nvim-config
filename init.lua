@@ -93,6 +93,7 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 vim.keymap.set('n', '<C-n>', '<CMD>Neotree toggle<CR>', { desc = 'Open directory' })
 vim.keymap.set('n', '<Tab>', '<CMD>bnext<CR>', { desc = 'Next tab' })
 vim.keymap.set('n', '<S-Tab>', '<CMD>bprev<CR>', { desc = 'Previous tab' })
+vim.keymap.set('n', '<C-x>', ':bd<CR>', { desc = 'Close current buffer' })
 
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
