@@ -60,6 +60,8 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
+vim.opt.termguicolors = true
+
 vim.o.tabstop = 4
 
 -- Clear highlights on search when pressing <Esc> in normal mode
